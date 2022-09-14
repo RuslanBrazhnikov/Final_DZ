@@ -20,3 +20,12 @@ void SortArray2Out(string[] array1, string[] array2) // Создаем мето�
         }
     }
 }
+
+void Print(string[] arr) // Метод печати изначльно заданного массива
+{
+Console.Write("Заданный изначально массив => ");
+    foreach (var item in array1)
+    {
+        Console.Write($"{item} ");
+    }
+}
